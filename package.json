@@ -1,0 +1,12 @@
+{
+  "name": "projetos",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "author": "Henrique de Oliveira",
+  "license": "ISC"
+}
