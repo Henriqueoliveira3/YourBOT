@@ -1,1 +1,5 @@
-console.log("Hello World")
+
+function println(message){
+    console.log(message+"\n")
+}
+println("Hello World")
