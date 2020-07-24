@@ -3,10 +3,10 @@ function println(message){
 }
 
 function welcome() {
-    println("========= I AM YOUR BOT =========")
+    println("========= Cetus Bot =========")
+    println("Cetus bot e um operador tenno que verifica as condicoes do clima e tempo da terra.")
 }
 
-
 welcome()
-println("Olá Mundo!")
+
 
