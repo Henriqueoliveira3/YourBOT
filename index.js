@@ -26,23 +26,27 @@ function welcome(lang) {
                 } else if (menu == 2) {
                     println("Ok, siga as instruções deste operador tenno : https://www.youtube.com/watch?v=kpM80HBWCz0")
                     saida = readline.questionInt("Gostaria de sair 0/ Senão qualquer outro número")
-                } else {
+                }else if(menu == 0){
+                    saida = 0
+                }else {
                     println("Opção invalida")
                 }
                 break;
             case "EN":
                 println("========= Cetus Bot =========")
                 println("Cetus bot it's an tenno operator that verify the conditions of earth.")
-                var menuEN = readline.questionInt("Do you want to know the time on earth ?(1) or do you want to know how to defeat the teralyst?(2) and 0 to exit")
-                if (menuEN == 1) {
+                var menu = readline.questionInt("Do you want to know the time on earth ?(1) or do you want to know how to defeat the teralyst?(2) and 0 to exit")
+                if (menu == 1) {
                     novidadesEN()
                     saida = readline.questionInt("Would you like to exit 0/ Else insert any number")
-                } else if (menuEN == 2) {
+                } else if (menu == 2) {
                     println("Ok, so now follow this tenno operator : https://www.youtube.com/watch?v=DZEiN4Wnmk4")
                     saida = readline.questionInt("Would you like to exit 0/ Else insert any number")
-                } else {
+                }else if(menu == 0){
+                    saida = 0
+                }else {
                     println("Invalid option")
-                }
+                } 
                 break;
 
             default:
@@ -54,6 +58,6 @@ function welcome(lang) {
     }
 }
 
-welcome("PT")
+welcome("EN")
 
 
